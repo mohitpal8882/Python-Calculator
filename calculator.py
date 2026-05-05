@@ -14,13 +14,13 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
 
-print("num1:", num1)
-print("num2:", num2)
-
 choice = input("Enter choice (+/-/*//): ")
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
+
+print("num1:", num1)
+print("num2:", num2)
 
 if choice == '+':
     print("Result:", add(num1, num2))
